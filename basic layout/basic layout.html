@@ -1,0 +1,116 @@
+<html>
+     <head>
+	      <title>Basic Layout</title>
+		  <style>
+		        :root{
+				      --main-color:yellow;
+					  }
+		     body{
+			      font-family:arial,helvetica;
+				  background:gray;
+				  margin:0;
+				  padding:0;
+				  }
+		        #wrapper{
+				         border: 0px solid black;
+						 width:1000px;
+						 background:white;
+						 margin:0 auto;
+						 padding:0;
+				}
+				
+				#header{
+				       background:var(--main-color);
+					   color:black;
+					   height:100px;
+				}
+				 
+				#menu {
+				       background:skyblue;
+					   }
+					   #menu ul{
+					        margin:0;
+							padding:0;
+					   }
+			    #menu li{
+					     display:inline-block;
+					  }
+			    #menu li a{
+					     display:block;
+						 padding:10px 15px;
+						 text-decoration:none;
+						 color:black;
+					  } 
+				#menu li a:hover{
+                                background:red;
+								color:white;
+                       }				
+			    #content {
+				       width:800px;
+					   float:left;
+					   padding:15;
+					   box-sizing:border-box;
+					  
+			           }
+					   h2{
+					    color:var(--main-color);
+						}
+					   							  
+				#sidebar {
+				       background:lightblue;
+					   width:200px;
+					   height:300px;
+					   float:right;
+					   }
+					   #sidebar a{
+					   text-decoration:none;
+						 color:black;
+						 }
+					   
+				
+				#footer{
+				       background:var(--main-color);
+					   clear:both;
+					   padding:10px 15px;
+					   text-align:right;
+					   }
+				
+		  </style>
+		  </head>
+		<body>
+		 <div id="wrapper">
+			 <div id="header">
+			 <h1><i><u>Yahoo Baba:~</u></i></h1>
+		</div>
+            <div id="Menu">
+            <ul>
+               <li><a href="">home</a></li>
+               <li><a href="">about us</a></li>
+               <li><a href="">gallery</a></li>
+               <li><a href="">contact us</a></li>
+			 </ul>
+		</div>
+		<div id="content">
+		          <h2>Design Basic layout</h2>
+				  <p>y texLorem Lorem Ipsum has been the industry's standard dummy texLorem 
+				  Lorem Ipsum has been the industry's standard dummy texLorem Lorem Ipsum has been the industry's standard dummy texLorem </p>
+				  <p>Lorem Ipsum has been the industry's standard dummy texLorem Lorem Ipsum has been the industry's standard dummy texLorem 
+				  Lorem Ipsum has been the industry's standard dummy texLorem Lorem Ipsum has been the industry's standard dummy texLorem </p>
+			
+			   
+			   <p>Lorem Ipsum has been the industry's standard dummy texLorem Lorem Ipsum has been the industry's standard dummy texLorem 
+				  Lorem Ipsum has been the industry's standard dummy texLorem Lorem Ipsum has been the industry's standard dummy texLorem </p>
+			 </div>
+               <div id="sidebar">
+                  <li><a href="">home</a></li>
+                  <li><a href="">about us</a></li>
+                  <li><a href="">gallery</a></li>
+                  <li><a href="">contact us</a></li>
+			 </ul>
+			 </div>
+			     <div id="footer">
+			       yahoo baba copyright@ 20202
+            </div>
+        </body>
+</html>		
+		
